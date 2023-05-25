@@ -961,6 +961,11 @@ header {
 .contact-us {
     display: none;
 }
+.articles__item-text {
+
+    left: 5px;
+}
+
   }
 /* FAQ SECTION */
 .faq {
