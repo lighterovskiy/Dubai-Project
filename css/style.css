@@ -953,6 +953,14 @@ header {
    .articles__column:first-child {
     margin-left: 15px;
 }
+.articles__item-title_hover {
+    
+
+    margin: 0px 0px 0px 0px;
+}
+.contact-us {
+    display: none;
+}
   }
 /* FAQ SECTION */
 .faq {
