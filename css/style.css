@@ -1001,15 +1001,17 @@ padding: 20px 0;
     color: #E8E8E8;
     padding: 30px;
 }
+details summary::-webkit-details-marker {
+    display:none;
+  }
 details > summary {
+    list-style-type: '';
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='13' height='22' viewBox='0 0 13 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12 11.0254L0.671129 1.00085' stroke='%23FCD54C'/%3e%3cpath d='M0.670898 21.0254L11.9998 11.0008' stroke='%23FCD54C'/%3e%3c/svg%3e ");
     background-repeat: no-repeat;
     background-position: right;
    
 }
-details summary::-webkit-details-marker {
-    display:none;
-  }
+
 details[open] > summary {
     list-style-type: '';
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='21' height='14' viewBox='0 0 21 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M10.3232 12.6758L20.3478 1.34691' stroke='%23FCD54C'/%3e%3cpath d='M0.323242 1.34766L10.3478 12.6765' stroke='%23FCD54C'/%3e%3c/svg%3e ");
