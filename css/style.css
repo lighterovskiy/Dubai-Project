@@ -1002,7 +1002,6 @@ padding: 20px 0;
     padding: 30px;
 }
 details > summary {
-    list-style-type: '';
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='13' height='22' viewBox='0 0 13 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12 11.0254L0.671129 1.00085' stroke='%23FCD54C'/%3e%3cpath d='M0.670898 21.0254L11.9998 11.0008' stroke='%23FCD54C'/%3e%3c/svg%3e ");
     background-repeat: no-repeat;
     background-position: right;
